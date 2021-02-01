@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+     background-image: url(images/SCROLL\ 3-BRAND\ USP\ \(CONCISE\).png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height:100hv;
+ }
+
+ .container{
+    height: 100vh;
+    width: 100%;
+    /* display: flex;
+    flex-direction: row; */
+    
+}
+
+@font-face{
+    font-family: 'bebas neue bold';
+    src: url(fonts/BebasNeue-Bold.otf);
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'panton bold';
+    src: url(fonts/Panton-Bold.otf);
+    font-style: normal;
+}
+@font-face{
+    font-family: 'panton regular';
+    src: url(fonts/Panton-Regular.otf);
+    font-style: normal;
+}
+@font-face{
+    font-family: 'panton extrabold';
+    src: url(fonts/Panton\ ExtraBold.otf);
+    font-style: normal;
+}
+
+.title{
+    display: flex;
+    align-items: flex-end;
+    font-family: bebas neue bold;
+    flex-direction: row;
+    padding-top: 265px;
+}
+.title .meat{
+    font-size: 80px;
+    line-height: 65px;
+    padding-left: 80px;
+
+}
+.nutrition{
+    display: flex;
+    align-items: flex-end;
+    font-family: bebas neue bold;
+    position: relative;
+    z-index: 5;
+    left: 550px ;
+    bottom: 83px;
+}
+
+.nutrition .cholestrol span{
+    font-size: 80px;
+    padding-left: 100px;
+    
+}
+
+.nutrition .protein span{
+    font-size: 80px;
+    padding-left: 60px;
+    
+}
+
+.nutrition .hormones  span{
+    font-size: 80px;
+    padding-left: 60px;
+}
+
+.nutrition h5{
+    font-size: 30px;
+    color: #23AF5B;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.mission-text{
+    
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    position: relative;
+    z-index: 6;
+    bottom: 38px;
+}
+
+.mission-text p{
+    font-family: panton bold;
+    font-size: 26px;
+}
+
+.happy-text .row1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    z-index: 6;
+    left: 80px;
+    text-transform: uppercase;
+}
+
+.happy-text .row2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    z-index: 6;
+    left: 80px;
+    text-transform: uppercase;
+}
+
+.happy-text .row3{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    z-index: 6;
+    left: 80px;
+}
+
+.happy-text .row1 h5{
+    font-family: panton regular;
+    font-size: 20px;
+    padding-right: 400px;
+}
+
+.happy-text #h1{
+    font-family: panton extrabold;
+    font-size: 20px;
+    color: #23AF5B;
+   
+}
+.happy-text #h2{
+    font-family: panton extrabold;
+    font-size: 20px;
+    color: #23AF5B;
+    padding-left: 389px;
+   
+}
+.happy-text #h3{
+    font-family: panton extrabold;
+    font-size: 20px;
+    color: #23AF5B;
+    padding-left: 376px;
+   
+}
+
+.happy-text .row3 .planet-text{
+    font-family: panton bold;
+    font-size: 10px;
+    line-height: 14px;
+
+}
+.happy-text .row3 .animal-text{
+    font-family: panton bold;
+    font-size: 10px;
+    padding-left: 262px;
+    line-height: 14px;
+}
+.happy-text .row3 .health-text{
+    font-family: panton bold;
+    font-size: 10px;
+    padding-left: 278px;
+    padding-top: 10px;
+    line-height: 14px;
+}
