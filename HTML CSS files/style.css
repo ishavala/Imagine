@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+/* .container{
+    margin-left: 200px;
+} */
+.logo-img {
+    height: 100px;
+    padding-left: 60px;
+    padding-top: 40px;
+    cursor: pointer;
+    margin-right: auto;
+}
+.insta-logo{
+    height: 16px;
+    padding-left: 5px;
+    position: absolute;
+    top: 60px;
+   
+}
+@font-face{
+    font-family: 'bebas neue bold';
+    src: url(fonts/BebasNeue-Bold.otf);
+    font-style: normal;
+
+}
+
+li,a{
+    font-family: bebas neue bold;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-links{
+    list-style: none;
+    padding-right: 40px;
+}
+.nav-links li{
+    display: inline;
+    padding: 0px 7px;
+}
+
+.title{
+    margin:auto; 
+    max-width: 500px;
+    height: 50vh;
+    font-family: bebas neue bold;
+    font-size: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 70px;
+}
+.button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding-right: 40px;
+    position: absolute;
+    top: 90%;
+    left: 95%;
+  
+}
+.next-arrow-button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    outline: none;
+}
