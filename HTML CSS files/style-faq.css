@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-image: url(images/SCROLL\ 7-FAQ.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height:100hv;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@font-face{
+    font-family: 'bebas neue bold';
+    src: url(fonts/BebasNeue-Bold.otf);
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'panton bold';
+    src: url(fonts/Panton-Bold.otf);
+    font-style: normal;
+}
+@font-face{
+    font-family: 'panton regular';
+    src: url(fonts/Panton-Regular.otf);
+    font-style: normal;
+}
+.faq{
+    width: 450px;
+    padding-left: 400px;
+}
+
+.faq .q1{
+    font-family: bebas neue bold;
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+.faq .q2{
+    font-family:panton bold;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.faq .q3{
+    font-family: panton bold;
+    font-size: 14px;
+    padding-top: 17px;
+    padding-bottom: 5px;
+}
+.faq .q4{
+    font-family: panton regular;
+    font-size: 10px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+}
+.faq .q5{
+    font-family: panton bold;
+    font-size: 14px;
+    padding-top: 17px;
+    padding-bottom: 5px;
+}
+.faq .q6{
+    font-family: panton bold;
+    font-size: 14px;
+    padding-top: 17px;
+    padding-bottom: 5px;
+}
+.faq .q7{
+    font-family: panton bold;
+    font-size: 14px;
+    padding-top: 17px;
+    padding-bottom: 5px;
+}
+
+.faq .q2 i{
+    padding-left: 195px;
+}
+.faq .q3 i{
+    padding-left: 173px;
+}
+.faq .q5 i{
+    padding-left: 140px;
+}
+.faq .q6 i{
+    padding-left: 237px;
+}
+.faq .q7 i{
+    padding-left: 147px;
+}

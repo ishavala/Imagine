@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     height:100hv;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+@font-face{
+    font-family: 'bebas neue bold';
+    src: url(fonts/BebasNeue-Bold.otf);
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'panton bold';
+    src: url(fonts/Panton-Bold.otf);
+    font-style: normal;
+}
+
+.text1{
+    font-family: bebas neue bold;
+    font-size: 70px;
+    text-align: center;
+}
+
+.text2{
+    font-family: panton bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container2{
+    /* display: flex;
+    align-items: flex-end;
+    /* justify-content: center; */
+    /* flex-direction: row; */ 
+    height: 350px;
+    width: 100%;
+    padding-top: 523px;
+}
+
+.container2 .box1{
+    height: 380px;
+    width: 440px;
+    background-color: #FCD42D;
+}
+.container2 .box2{
+    height: 380px;
+    width: 440px;
+    background-color: #C4C4C4;
+}
+.container2 .box3{
+    height: 380px;
+    width: 440px;
+    background-color: #1ABEE5;
+}
+.container2 .box4{
+    height: 380px;
+    width: 440px;
+    background-color: #23AF5B;
+}
+
+.box1 img{
+    position: relative;
+    top:50px;
+    right:4px;
+    height: 250px;
+    width: 410px;
+}
+.box2 img{
+    position: relative;
+    top:50px;
+    right:4px;
+    height: 250px;
+    width: 410px;
+}
+.box3 img{
+    position: relative;
+    top:50px;
+    right:4px;
+    height: 250px;
+    width: 410px;
+}
+.box4 img{
+    position: relative;
+    top:79px;
+    left:50px;
+    height: 210px;
+    width: 280px;
+}
+
+.box1 p{
+    font-family: bebas neue bold;
+    font-size: 50px;
+    padding-left: 75px;
+    padding-top: 60px;
+}
+.box2 p{
+    font-family: bebas neue bold;
+    font-size: 50px;
+    padding-left: 75px;
+    padding-top: 60px;
+}
+.box3 p{
+    font-family: bebas neue bold;
+    font-size: 50px;
+    padding-left: 75px;
+    padding-top: 60px;
+}
+.box4 p{
+    font-family: bebas neue bold;
+    font-size: 50px;
+    padding-left: 90px;
+    padding-top: 100px;
+}
+
